@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #000000;
-    color: #f6f6f6;
+    background-color: #c8412d;
+    color: #e1ebed;
     box-sizing: border-box;
 }
 
@@ -39,20 +39,23 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #22D4FD;
+    color: #e1ebed;
     text-decoration: none;
+}
+.menu-link:hover{
+    color: #ffe556;
 }
 
 .apresentacao-titulo {
     font-size: 2.25rem;
     font-family: "Krona One", sans-serif;
-    color: #22D4FD;
+    color: #e1ebed;
     text-align: center;
     padding: 5%;
 }
 
 .apresentacao-titulo:hover {
-    color: yellow;
+    color: #ffe556;
 }
 
 .apresentacao-paragrafo {
@@ -85,18 +88,18 @@ body {
     color: #f6f6f6;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    border: 2px solid #22D4FD;
+    border: 2px solid #e1ebed;
     display: flex;
     justify-content: center;
     gap: 16px;
 }
 
 .apresentacao-links2:hover {
-    background-color: #272727;
+    background-color: #ffe556;
 }
 
 span {
-    color: yellow;
+    color:#ffe556;
 }
 
 .destaque {
@@ -105,8 +108,8 @@ span {
 
 footer {
     text-align: center;
-    background-color: #22D4FD;
-    color: black;
+    background-color: #e1ebed;
+    color: #c8412d;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 0.875rem;
@@ -115,14 +118,14 @@ footer {
 
 #imagem-principal {
     border-radius: 48%;
-    border: 2px solid #22d4fd;
+    border: 2px solid #e1ebed;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     width: 50%;
 }
 
 .conteudo-texto {
-    color: white;
+    color: #e1ebed;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 1.125rem;
@@ -130,11 +133,11 @@ footer {
     padding: 0% 15%;
 }
 
-/* Media Query — Deixar a página de forma responsiva */
+/* Media Query - Deixar a página de forma responsiva */
 @media (max-width: 1080px) {
-
     body{
-        background-color: purple;
+        background-color: #c8412d;
+        color: #e1ebed;
     }
 
     .cabecalho {
